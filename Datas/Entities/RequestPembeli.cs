@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+
+namespace RAS.Bootcamp.api.net.Datas.Entities
+{
+    public partial class RequestPembeli
+    {
+        public int IdUser { get; set; }
+        public string? Nama { get; set; }
+        public string? NoHandPhone { get; set; }
+        public string? Alamat { get; set; }
+
+        // public virtual User IdUserNavigation { get; set; } = null!;
+    }
+}
